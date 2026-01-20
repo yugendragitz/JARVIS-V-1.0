@@ -1,0 +1,344 @@
+2026-01-17 23:24:05 | INFO     | root                 | Logging system initialized
+2026-01-17 23:24:05 | INFO     | core.dispatcher      | Registered skill: handle_shutdown [SYSTEM] - ['shutdown']
+2026-01-17 23:24:05 | INFO     | core.dispatcher      | Registered skill: handle_restart [SYSTEM] - ['restart']
+2026-01-17 23:24:05 | INFO     | core.dispatcher      | Registered skill: handle_sleep [SYSTEM] - ['sleep']
+2026-01-17 23:24:05 | INFO     | core.dispatcher      | Registered skill: handle_lock [SYSTEM] - ['lock']
+2026-01-17 23:24:05 | INFO     | core.dispatcher      | Registered skill: handle_screenshot [SYSTEM] - ['screenshot']
+2026-01-17 23:24:05 | INFO     | core.dispatcher      | Registered skill: handle_volume_up [VOLUME] - ['up']
+2026-01-17 23:24:05 | INFO     | core.dispatcher      | Registered skill: handle_volume_down [VOLUME] - ['down']
+2026-01-17 23:24:05 | INFO     | core.dispatcher      | Registered skill: handle_volume_mute [VOLUME] - ['mute']
+2026-01-17 23:24:05 | INFO     | core.dispatcher      | Registered skill: handle_volume_unmute [VOLUME] - ['unmute']
+2026-01-17 23:24:05 | INFO     | core.dispatcher      | Registered skill: handle_volume_set [VOLUME] - ['set']
+2026-01-17 23:24:05 | INFO     | core.dispatcher      | Registered skill: handle_app_open [APPLICATION] - ['open']
+2026-01-17 23:24:05 | INFO     | core.dispatcher      | Registered skill: handle_app_close [APPLICATION] - ['close']
+2026-01-17 23:24:05 | INFO     | core.dispatcher      | Registered skill: handle_app_list [APPLICATION] - ['list', 'running']
+2026-01-17 23:24:05 | INFO     | core.dispatcher      | Registered skill: handle_time [TIME_DATE] - ['current', 'time']
+2026-01-17 23:24:05 | INFO     | core.dispatcher      | Registered skill: handle_date [TIME_DATE] - ['date', 'today', 'day']
+2026-01-17 23:24:05 | INFO     | core.dispatcher      | Registered skill: handle_datetime [TIME_DATE] - ['datetime', 'now']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Registered skill: handle_web_search [WEB] - ['search']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Registered skill: handle_web_open [WEB] - ['open', 'website', 'site']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Registered skill: handle_youtube [WEB] - ['youtube']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Registered skill: handle_weather [WEB] - ['weather']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Registered skill: handle_greeting [CONVERSATION] - ['greeting']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Registered skill: handle_farewell [CONVERSATION] - ['farewell']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Registered skill: handle_thanks [CONVERSATION] - ['thanks']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Registered skill: handle_how_are_you [CONVERSATION] - ['how_are_you']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Registered skill: handle_who_are_you [CONVERSATION] - ['who_are_you']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Registered skill: handle_capabilities [CONVERSATION] - ['capabilities', 'help']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Registered skill: handle_joke [CONVERSATION] - ['joke']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Registered skill: handle_stop [CONVERSATION] - ['stop', 'cancel']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Registered skill: handle_remember [MEMORY] - ['remember']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Registered skill: handle_recall [MEMORY] - ['recall', 'what_remember']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Registered skill: handle_forget [MEMORY] - ['forget']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Registered skill: handle_general [CONVERSATION] - ['general', '*']
+2026-01-17 23:24:06 | INFO     | core.dispatcher      | Fallback handler registered
+2026-01-17 23:24:06 | INFO     | core.memory          | Memory initialized: C:\Users\Yugendra\OneDrive\Desktop\python personal assistant\jarvis\data\memory.db
+2026-01-17 23:24:06 | DEBUG    | core.dispatcher      | Dispatching: TIME_DATE.current
+2026-01-17 23:24:06 | DEBUG    | core.dispatcher      | Dispatching: CONVERSATION.capabilities
+2026-01-17 23:24:06 | DEBUG    | core.dispatcher      | Dispatching: CONVERSATION.joke
+2026-01-17 23:24:06 | DEBUG    | core.dispatcher      | Dispatching: MEMORY.remember
+2026-01-17 23:24:06 | INFO     | core.memory          | Learned fact [personal]: my name is tony
+2026-01-17 23:24:06 | INFO     | skills.conversation  | Remembered [personal]: my name is tony
+2026-01-17 23:24:06 | DEBUG    | core.dispatcher      | Dispatching: MEMORY.remember
+2026-01-17 23:24:06 | DEBUG    | core.dispatcher      | Dispatching: APPLICATION.open
+2026-01-17 23:24:06 | INFO     | skills.apps          | Opening application: notepad
+2026-01-17 23:24:06 | INFO     | skills.apps          | Launched: notepad.exe
+2026-01-17 23:27:52 | INFO     | root                 | Logging system initialized
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_shutdown [SYSTEM] - ['shutdown']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_restart [SYSTEM] - ['restart']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_sleep [SYSTEM] - ['sleep']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_lock [SYSTEM] - ['lock']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_screenshot [SYSTEM] - ['screenshot']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_volume_up [VOLUME] - ['up']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_volume_down [VOLUME] - ['down']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_volume_mute [VOLUME] - ['mute']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_volume_unmute [VOLUME] - ['unmute']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_volume_set [VOLUME] - ['set']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_app_open [APPLICATION] - ['open']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_app_close [APPLICATION] - ['close']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_app_list [APPLICATION] - ['list', 'running']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_time [TIME_DATE] - ['current', 'time']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_date [TIME_DATE] - ['date', 'today', 'day']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_datetime [TIME_DATE] - ['datetime', 'now']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_web_search [WEB] - ['search']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_web_open [WEB] - ['open', 'website', 'site']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_youtube [WEB] - ['youtube']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_weather [WEB] - ['weather']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_greeting [CONVERSATION] - ['greeting']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_farewell [CONVERSATION] - ['farewell']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_thanks [CONVERSATION] - ['thanks']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_how_are_you [CONVERSATION] - ['how_are_you']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_who_are_you [CONVERSATION] - ['who_are_you']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_capabilities [CONVERSATION] - ['capabilities', 'help']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_joke [CONVERSATION] - ['joke']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_stop [CONVERSATION] - ['stop', 'cancel']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_remember [MEMORY] - ['remember']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_recall [MEMORY] - ['recall', 'what_remember']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_forget [MEMORY] - ['forget']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Registered skill: handle_general [CONVERSATION] - ['general', '*']
+2026-01-17 23:27:52 | INFO     | core.dispatcher      | Fallback handler registered
+2026-01-17 23:27:52 | INFO     | core.memory          | Memory initialized: C:\Users\Yugendra\OneDrive\Desktop\python personal assistant\jarvis\data\memory.db
+2026-01-17 23:27:58 | DEBUG    | core.dispatcher      | Dispatching: CONVERSATION.greeting
+2026-01-17 23:28:02 | DEBUG    | core.dispatcher      | Dispatching: TIME_DATE.current
+2026-01-17 23:28:10 | DEBUG    | core.dispatcher      | Dispatching: TIME_DATE.current
+2026-01-17 23:28:16 | DEBUG    | core.dispatcher      | Dispatching: TIME_DATE.current
+2026-01-17 23:28:19 | DEBUG    | core.dispatcher      | Dispatching: TIME_DATE.current
+2026-01-17 23:28:21 | DEBUG    | core.dispatcher      | Dispatching: TIME_DATE.current
+2026-01-17 23:28:23 | DEBUG    | core.dispatcher      | Dispatching: CONVERSATION.greeting
+2026-01-17 23:28:54 | DEBUG    | core.dispatcher      | Dispatching: TIME_DATE.current
+2026-01-17 23:29:03 | DEBUG    | core.dispatcher      | Dispatching: CONVERSATION.joke
+2026-01-17 23:37:31 | INFO     | root                 | Logging system initialized
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_shutdown [SYSTEM] - ['shutdown']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_restart [SYSTEM] - ['restart']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_sleep [SYSTEM] - ['sleep']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_lock [SYSTEM] - ['lock']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_screenshot [SYSTEM] - ['screenshot']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_volume_up [VOLUME] - ['up']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_volume_down [VOLUME] - ['down']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_volume_mute [VOLUME] - ['mute']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_volume_unmute [VOLUME] - ['unmute']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_volume_set [VOLUME] - ['set']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_app_open [APPLICATION] - ['open']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_app_close [APPLICATION] - ['close']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_app_list [APPLICATION] - ['list', 'running']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_time [TIME_DATE] - ['time']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_date [TIME_DATE] - ['date', 'today', 'day', 'current']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_datetime [TIME_DATE] - ['datetime', 'now']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_web_search [WEB] - ['search']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_web_open [WEB] - ['open', 'website', 'site']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_youtube [WEB] - ['youtube']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_weather [WEB] - ['weather']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_greeting [CONVERSATION] - ['greeting']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_farewell [CONVERSATION] - ['farewell']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_thanks [CONVERSATION] - ['thanks']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_how_are_you [CONVERSATION] - ['how_are_you']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_who_are_you [CONVERSATION] - ['who_are_you']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_capabilities [CONVERSATION] - ['capabilities', 'help']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_joke [CONVERSATION] - ['joke']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_stop [CONVERSATION] - ['stop', 'cancel']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_remember [MEMORY] - ['remember']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_recall [MEMORY] - ['recall', 'what_remember']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_forget [MEMORY] - ['forget']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Registered skill: handle_general [CONVERSATION] - ['general', '*']
+2026-01-17 23:37:31 | INFO     | core.dispatcher      | Fallback handler registered
+2026-01-17 23:37:31 | INFO     | core.memory          | Memory initialized: C:\Users\Yugendra\OneDrive\Desktop\python personal assistant\jarvis\data\memory.db
+2026-01-17 23:37:31 | DEBUG    | core.dispatcher      | Dispatching: TIME_DATE.current
+2026-01-17 23:43:07 | INFO     | root                 | Logging system initialized
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_shutdown [SYSTEM] - ['shutdown']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_restart [SYSTEM] - ['restart']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_sleep [SYSTEM] - ['sleep']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_lock [SYSTEM] - ['lock']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_screenshot [SYSTEM] - ['screenshot']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_volume_up [VOLUME] - ['up']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_volume_down [VOLUME] - ['down']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_volume_mute [VOLUME] - ['mute']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_volume_unmute [VOLUME] - ['unmute']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_volume_set [VOLUME] - ['set']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_app_open [APPLICATION] - ['open']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_app_close [APPLICATION] - ['close']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_app_list [APPLICATION] - ['list', 'running']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_time [TIME_DATE] - ['time']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_date [TIME_DATE] - ['date', 'today', 'day', 'current']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_datetime [TIME_DATE] - ['datetime', 'now']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_web_search [WEB] - ['search']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_web_open [WEB] - ['open', 'website', 'site']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_youtube [WEB] - ['youtube']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_weather [WEB] - ['weather']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_greeting [CONVERSATION] - ['greeting']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_farewell [CONVERSATION] - ['farewell']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_thanks [CONVERSATION] - ['thanks']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_how_are_you [CONVERSATION] - ['how_are_you']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_who_are_you [CONVERSATION] - ['who_are_you']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_capabilities [CONVERSATION] - ['capabilities', 'help']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_joke [CONVERSATION] - ['joke']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_stop [CONVERSATION] - ['stop', 'cancel']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_remember [MEMORY] - ['remember']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_recall [MEMORY] - ['recall', 'what_remember']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_forget [MEMORY] - ['forget']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Registered skill: handle_general [CONVERSATION] - ['general', '*']
+2026-01-17 23:43:07 | INFO     | core.dispatcher      | Fallback handler registered
+2026-01-17 23:43:07 | INFO     | core.memory          | Memory initialized: C:\Users\Yugendra\OneDrive\Desktop\python personal assistant\jarvis\data\memory.db
+2026-01-17 23:43:15 | DEBUG    | core.dispatcher      | Dispatching: APPLICATION.open
+2026-01-17 23:43:15 | INFO     | skills.apps          | Opening application: youtube
+2026-01-17 23:43:15 | INFO     | skills.apps          | Launched: youtube.exe
+2026-01-20 13:34:13 | INFO     | root                 | Logging system initialized
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_shutdown [SYSTEM] - ['shutdown']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_restart [SYSTEM] - ['restart']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_sleep [SYSTEM] - ['sleep']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_lock [SYSTEM] - ['lock']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_screenshot [SYSTEM] - ['screenshot']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_volume_up [VOLUME] - ['up']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_volume_down [VOLUME] - ['down']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_volume_mute [VOLUME] - ['mute']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_volume_unmute [VOLUME] - ['unmute']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_volume_set [VOLUME] - ['set']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_app_open [APPLICATION] - ['open']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_app_close [APPLICATION] - ['close']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_app_list [APPLICATION] - ['list', 'running']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_time [TIME_DATE] - ['time']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_date [TIME_DATE] - ['date', 'today', 'day', 'current']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_datetime [TIME_DATE] - ['datetime', 'now']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_web_search [WEB] - ['search']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_web_open [WEB] - ['open', 'website', 'site']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_youtube [WEB] - ['youtube']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_weather [WEB] - ['weather']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_greeting [CONVERSATION] - ['greeting']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_farewell [CONVERSATION] - ['farewell']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_thanks [CONVERSATION] - ['thanks']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_how_are_you [CONVERSATION] - ['how_are_you']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_who_are_you [CONVERSATION] - ['who_are_you']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_capabilities [CONVERSATION] - ['capabilities', 'help']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_joke [CONVERSATION] - ['joke']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_stop [CONVERSATION] - ['stop', 'cancel']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_remember [MEMORY] - ['remember']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_recall [MEMORY] - ['recall', 'what_remember']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_forget [MEMORY] - ['forget']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Registered skill: handle_general [CONVERSATION] - ['general', '*']
+2026-01-20 13:34:14 | INFO     | core.dispatcher      | Fallback handler registered
+2026-01-20 13:34:14 | INFO     | core.memory          | Memory initialized: C:\Users\Yugendra\OneDrive\Desktop\python personal assistant\jarvis\data\memory.db
+2026-01-20 13:34:20 | DEBUG    | core.dispatcher      | Dispatching: CONVERSATION.greeting
+2026-01-20 13:34:27 | DEBUG    | core.dispatcher      | Dispatching: CONVERSATION.greeting
+2026-01-20 13:34:33 | DEBUG    | core.dispatcher      | Dispatching: TIME_DATE.current
+2026-01-20 13:34:39 | DEBUG    | core.dispatcher      | Dispatching: TIME_DATE.current
+2026-01-20 13:34:43 | DEBUG    | core.dispatcher      | Dispatching: TIME_DATE.current
+2026-01-20 13:34:53 | DEBUG    | core.dispatcher      | Dispatching: APPLICATION.open
+2026-01-20 13:34:53 | INFO     | skills.apps          | Opening application: youtube
+2026-01-20 13:34:53 | INFO     | skills.apps          | Launched: youtube.exe
+2026-01-20 13:35:13 | DEBUG    | core.dispatcher      | Dispatching: APPLICATION.open
+2026-01-20 13:35:13 | INFO     | skills.apps          | Opening application: chrome
+2026-01-20 13:35:13 | INFO     | skills.apps          | Launched: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-01-20 13:35:22 | DEBUG    | core.dispatcher      | Dispatching: APPLICATION.open
+2026-01-20 13:35:22 | INFO     | skills.apps          | Opening application: spotify
+2026-01-20 13:35:22 | INFO     | skills.apps          | Launched: C:\Users\Yugendra\AppData\Roaming\Spotify\Spotify.exe
+2026-01-20 13:35:31 | DEBUG    | core.dispatcher      | Dispatching: APPLICATION.open
+2026-01-20 13:35:31 | INFO     | skills.apps          | Opening application: spotify
+2026-01-20 13:35:31 | INFO     | skills.apps          | Launched: C:\Users\Yugendra\AppData\Roaming\Spotify\Spotify.exe
+2026-01-20 13:41:30 | INFO     | root                 | Logging system initialized
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_shutdown [SYSTEM] - ['shutdown']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_restart [SYSTEM] - ['restart']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_sleep [SYSTEM] - ['sleep']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_lock [SYSTEM] - ['lock']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_screenshot [SYSTEM] - ['screenshot']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_volume_up [VOLUME] - ['up']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_volume_down [VOLUME] - ['down']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_volume_mute [VOLUME] - ['mute']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_volume_unmute [VOLUME] - ['unmute']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_volume_set [VOLUME] - ['set']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_app_open [APPLICATION] - ['open']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_app_close [APPLICATION] - ['close']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_app_list [APPLICATION] - ['list', 'running']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_time [TIME_DATE] - ['time']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_date [TIME_DATE] - ['date', 'today', 'day']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_datetime [TIME_DATE] - ['datetime', 'now']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_web_search [WEB] - ['search']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_web_open [WEB] - ['open', 'website', 'site']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_youtube [WEB] - ['youtube']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_weather [WEB] - ['weather']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_greeting [CONVERSATION] - ['greeting']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_farewell [CONVERSATION] - ['farewell']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_thanks [CONVERSATION] - ['thanks']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_how_are_you [CONVERSATION] - ['how_are_you']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_who_are_you [CONVERSATION] - ['who_are_you']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_capabilities [CONVERSATION] - ['capabilities', 'help']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_joke [CONVERSATION] - ['joke']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_stop [CONVERSATION] - ['stop', 'cancel']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_remember [MEMORY] - ['remember']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_recall [MEMORY] - ['recall', 'what_remember']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_forget [MEMORY] - ['forget']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Registered skill: handle_general [CONVERSATION] - ['general', '*']
+2026-01-20 13:41:30 | INFO     | core.dispatcher      | Fallback handler registered
+2026-01-20 13:41:30 | INFO     | core.memory          | Memory initialized: C:\Users\Yugendra\OneDrive\Desktop\python personal assistant\jarvis\data\memory.db
+2026-01-20 13:41:35 | DEBUG    | core.dispatcher      | Dispatching: CONVERSATION.greeting
+2026-01-20 13:41:40 | DEBUG    | core.dispatcher      | Dispatching: SYSTEM.sleep
+2026-01-20 13:41:40 | INFO     | skills.system        | Putting system to sleep...
+2026-01-20 13:42:37 | DEBUG    | core.dispatcher      | Dispatching: CONVERSATION.greeting
+2026-01-20 13:42:41 | DEBUG    | core.dispatcher      | Dispatching: CONVERSATION.greeting
+2026-01-20 13:42:44 | DEBUG    | core.dispatcher      | Dispatching: TIME_DATE.time
+2026-01-20 13:42:48 | DEBUG    | core.dispatcher      | Dispatching: TIME_DATE.time
+2026-01-20 13:42:54 | DEBUG    | core.dispatcher      | Dispatching: TIME_DATE.time
+2026-01-20 13:44:27 | INFO     | root                 | Logging system initialized
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_shutdown [SYSTEM] - ['shutdown']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_restart [SYSTEM] - ['restart']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_sleep [SYSTEM] - ['sleep']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_lock [SYSTEM] - ['lock']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_screenshot [SYSTEM] - ['screenshot']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_volume_up [VOLUME] - ['up']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_volume_down [VOLUME] - ['down']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_volume_mute [VOLUME] - ['mute']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_volume_unmute [VOLUME] - ['unmute']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_volume_set [VOLUME] - ['set']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_app_open [APPLICATION] - ['open']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_app_close [APPLICATION] - ['close']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_app_list [APPLICATION] - ['list', 'running']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_time [TIME_DATE] - ['time']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_date [TIME_DATE] - ['date', 'today', 'day']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_datetime [TIME_DATE] - ['datetime', 'now']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_web_search [WEB] - ['search']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_web_open [WEB] - ['open', 'website', 'site']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_youtube [WEB] - ['youtube']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_weather [WEB] - ['weather']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_greeting [CONVERSATION] - ['greeting']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_farewell [CONVERSATION] - ['farewell']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_thanks [CONVERSATION] - ['thanks']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_how_are_you [CONVERSATION] - ['how_are_you']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_who_are_you [CONVERSATION] - ['who_are_you']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_capabilities [CONVERSATION] - ['capabilities', 'help']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_joke [CONVERSATION] - ['joke']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_stop [CONVERSATION] - ['stop', 'cancel']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_remember [MEMORY] - ['remember']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_recall [MEMORY] - ['recall', 'what_remember']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_forget [MEMORY] - ['forget']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Registered skill: handle_general [CONVERSATION] - ['general', '*']
+2026-01-20 13:44:27 | INFO     | core.dispatcher      | Fallback handler registered
+2026-01-20 13:44:27 | INFO     | core.memory          | Memory initialized: C:\Users\Yugendra\OneDrive\Desktop\python personal assistant\jarvis\data\memory.db
+2026-01-20 13:46:05 | INFO     | root                 | Logging system initialized
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_shutdown [SYSTEM] - ['shutdown']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_restart [SYSTEM] - ['restart']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_sleep [SYSTEM] - ['sleep']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_lock [SYSTEM] - ['lock']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_screenshot [SYSTEM] - ['screenshot']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_volume_up [VOLUME] - ['up']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_volume_down [VOLUME] - ['down']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_volume_mute [VOLUME] - ['mute']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_volume_unmute [VOLUME] - ['unmute']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_volume_set [VOLUME] - ['set']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_app_open [APPLICATION] - ['open']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_app_close [APPLICATION] - ['close']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_app_list [APPLICATION] - ['list', 'running']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_time [TIME_DATE] - ['time']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_date [TIME_DATE] - ['date', 'today', 'day']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_datetime [TIME_DATE] - ['datetime', 'now']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_web_search [WEB] - ['search']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_web_open [WEB] - ['open', 'website', 'site']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_youtube [WEB] - ['youtube']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_weather [WEB] - ['weather']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_greeting [CONVERSATION] - ['greeting']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_farewell [CONVERSATION] - ['farewell']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_thanks [CONVERSATION] - ['thanks']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_how_are_you [CONVERSATION] - ['how_are_you']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_who_are_you [CONVERSATION] - ['who_are_you']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_capabilities [CONVERSATION] - ['capabilities', 'help']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_joke [CONVERSATION] - ['joke']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_stop [CONVERSATION] - ['stop', 'cancel']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_remember [MEMORY] - ['remember']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_recall [MEMORY] - ['recall', 'what_remember']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_forget [MEMORY] - ['forget']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Registered skill: handle_general [CONVERSATION] - ['general', '*']
+2026-01-20 13:46:05 | INFO     | core.dispatcher      | Fallback handler registered
+2026-01-20 13:46:05 | INFO     | core.memory          | Memory initialized: C:\Users\Yugendra\OneDrive\Desktop\python personal assistant\jarvis\data\memory.db
+2026-01-20 13:46:25 | DEBUG    | core.dispatcher      | Dispatching: APPLICATION.open
+2026-01-20 13:46:25 | INFO     | skills.apps          | Opening application: youtube
+2026-01-20 13:46:25 | INFO     | skills.apps          | Opening web app: youtube -> https://www.youtube.com
+2026-01-20 13:46:34 | DEBUG    | core.dispatcher      | Dispatching: APPLICATION.open
+2026-01-20 13:46:34 | INFO     | skills.apps          | Opening application: netflix
+2026-01-20 13:46:34 | INFO     | skills.apps          | Opening web app: netflix -> https://www.netflix.com
+2026-01-20 13:46:49 | DEBUG    | core.dispatcher      | Dispatching: APPLICATION.open
+2026-01-20 13:46:49 | INFO     | skills.apps          | Opening application: file amanger
+2026-01-20 13:46:49 | INFO     | skills.apps          | Launched: file amanger.exe
+2026-01-20 13:46:54 | DEBUG    | core.dispatcher      | Dispatching: APPLICATION.open
+2026-01-20 13:46:54 | INFO     | skills.apps          | Opening application: filemanager
+2026-01-20 13:46:54 | INFO     | skills.apps          | Launched: filemanager.exe
+2026-01-20 13:47:14 | DEBUG    | core.dispatcher      | Dispatching: APPLICATION.open
+2026-01-20 13:47:14 | INFO     | skills.apps          | Opening application: file explorer
+2026-01-20 13:47:14 | INFO     | skills.apps          | Opening web app: x -> https://www.x.com
+2026-01-20 13:47:26 | DEBUG    | core.dispatcher      | Dispatching: CONVERSATION.greeting
