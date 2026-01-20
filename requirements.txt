@@ -1,24 +1,10 @@
-# JARVIS AI Assistant - Dependencies
-# Install: pip install -r requirements.txt
-
-# Core Audio
+flask>=3.0.0
+flask-cors>=4.0.0
 SpeechRecognition>=3.10.0
 pyttsx3>=2.90
-pyaudio>=0.2.13
-
-# System Control
-pyautogui>=0.9.54
 psutil>=5.9.0
-pycaw>=20230407
-comtypes>=1.2.0
-
-# AI & NLP
 rapidfuzz>=3.5.0
 google-generativeai>=0.3.0
-
-# Utilities
 colorama>=0.4.6
-
-# Optional: For future LLM integration
-# openai>=1.0.0
-# langchain>=0.1.0
+requests>=2.31.0
+gunicorn>=21.0.0
